@@ -17,7 +17,7 @@ const ProductManagement = () => {
   // Fetch all products from the backend
   const fetchProducts = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/products", {
+      const response = await axios.get("https://e-com-uam9.vercel.app/api/products", {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       setProducts(response.data);
