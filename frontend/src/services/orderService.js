@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/orders";
+const API_URL = "https://e-com-uam9.vercel.app/api/orders";
 
 const getOrders = async () => {
   const response = await axios.get(`${API_URL}`);
