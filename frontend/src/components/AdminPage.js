@@ -15,7 +15,7 @@ const AdminPage = () => {
     const fetchStats = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/admin/stats"
+          "https://e-com-uam9.vercel.app/api/admin/stats"
         );
         setStats(response.data);
         setLoading(false);
