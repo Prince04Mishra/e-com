@@ -20,9 +20,9 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://e-com-uam9.vercel.app/api/auth/login",
-        formData
-      );
+      "https://e-com-uam9.vercel.app/api/auth/login",
+      formData
+    );
 
       // Save token and userId in localStorage
       localStorage.setItem("token", response.data.token);
