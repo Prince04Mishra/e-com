@@ -26,7 +26,7 @@ const RegisterPage = () => {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/auth/register", formData);
+      await axios.post("https://e-com-uam9.vercel.app/auth/register", formData);
       alert("Registration successful, please log in.");
       navigate("/login");
     } catch (err) {
