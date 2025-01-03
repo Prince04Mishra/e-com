@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/cart/"; // Adjust the base URL as needed.
-
+const API_URL = "https://e-com-uam9.vercel.app//api/cart/"; // Adjust the base URL as needed.
+//http://localhost:5000
 // const addToCart = async (productId, quantity) => {
 //   const response = await axios.post(`${API_URL}/add`, {
 //     userId: localStorage.getItem("userId"), // Ensure userId is retrieved correctly
